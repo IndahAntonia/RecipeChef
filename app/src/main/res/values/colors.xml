@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="Hitamt">#000000</color>
+    <color name="putih">#ffff</color>
+    <color name="putih1">#FFFFE0</color>
+    <color name="emas">#FFD700</color>
+    <color name="jingga">#FFA500</color>
+    <color name="jinggatua">#FF8C00</color>
+</resources>

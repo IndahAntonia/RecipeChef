@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/putih1"
+    tools:context=".Login">
+
+    <TextView
+        android:id="@+id/tvRecipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="100dp"
+        android:layout_marginTop="140dp"
+        android:text="Recipe Chef"
+        android:textSize="55dp"
+        android:gravity="center"
+        android:textColor="@color/jinggatua"
+        android:textStyle="bold"
+        />
+
+<EditText
+    android:id="@+id/txtgmail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="24dp"
+    android:layout_marginRight="24dp"
+    android:hint="Gmail"
+    android:layout_marginTop="150dp"
+    android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+    android:drawablePadding="5dp"
+
+    />
+
+    <EditText
+        android:id="@+id/txtpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:hint="Password"
+        android:drawableLeft="@drawable/ic_vpn_key_black_24dp"
+        android:drawablePadding="5dp"
+        />
+    
+    <Button
+        android:id="@+id/btnmasuk"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="20dp"
+      android:background="@drawable/buttonga"
+        android:text="Masuk"
+        android:textColor="@color/putih1"
+
+        />
+
+</LinearLayout>
